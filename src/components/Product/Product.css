@@ -1,0 +1,40 @@
+.product {
+    display: flex;
+    /* width: 80%; */
+    margin-left: 100px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid gray;
+}
+
+.product-info {
+    margin-left: 7px;
+    padding-left: 5px;
+}
+
+.product-info h4 {
+    font-size: large;
+    color: lightslategray;
+}
+
+.product-info button {
+    width: 200px;
+    padding: 5px;
+    background-color: rgb(218, 170, 51);
+    border-color: goldenrod;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.stock-btn-feature {
+    display: flex;
+}
+
+.features{
+    margin-left: 200px;
+}
+
+.features li{
+    color: gray;
+}

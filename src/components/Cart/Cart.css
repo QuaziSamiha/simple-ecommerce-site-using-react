@@ -1,0 +1,30 @@
+.order-heading {
+    text-align: center;
+}
+
+.order-detail {
+    display: flex;
+}
+
+.order-detail .info {
+    margin-left: 8px;
+}
+
+.order-detail .value{
+    margin-left: 10px;
+}
+
+.review-btn {
+    width: 150px;
+    padding: 3px;
+    background-color: rgb(218, 170, 51);
+    border-color: goldenrod;
+    border-radius: 3px;
+    margin-left: 20px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+h4{
+    color: rgb(185, 47, 5);
+}
