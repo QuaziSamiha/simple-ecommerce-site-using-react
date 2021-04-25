@@ -8,8 +8,9 @@ import fakeData from '../../fakeData';
 const Shop = () => {
 
     // console.log(fakeData);
-    const data = fakeData.slice(0,10);
+    const data = fakeData.slice(0,80);
     // console.log(data); // data is an array of objects
+    const [products, setProducts] = useState(data);
 
     const [cart, setCart] = useState([]);
 
