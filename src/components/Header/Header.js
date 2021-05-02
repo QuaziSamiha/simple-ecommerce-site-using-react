@@ -8,9 +8,9 @@ const Header = (props) => {
             <img src={siteLogo} alt="website logo" />
 
             <nav>
-                <a href="#">Shop</a>
-                <a href="#">Order Review</a>
-                <a href="#">Manage Inventory here</a>
+                <a href="/shop">Shop</a>
+                <a href="/review">Order Review</a>
+                <a href="/inventory">Manage Inventory</a>
             </nav>
         </div>
     );
