@@ -1,6 +1,6 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCoffee, faShoppingCart } from '@fortawesome/free-solid-svg-icons'
+import { faShoppingCart } from '@fortawesome/free-solid-svg-icons'
 
 import './Product.css';
 
@@ -8,6 +8,7 @@ const Product = (props) => {
     // console.log(props); // props is an object named product
     // console.log(props.product); // props.product is also an object which has many property
     const { name, img, seller, price, stock, features } = props.product;
+    
     return (
         <div className='product'>
             <div>
@@ -28,7 +29,7 @@ const Product = (props) => {
                         <h3>Features</h3>
                         <ul>
                             {
-                                features.map(f => <li><small>{f.description} {f.value}</small></li>)
+                                features.map((f, index) => <li key={index}><small>{f.description} {f.value}</small></li>)
                             }
                         </ul>
                     </div>

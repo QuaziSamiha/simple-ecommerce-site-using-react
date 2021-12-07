@@ -2,7 +2,7 @@ import React from 'react';
 import siteLogo from '../../images/logo.png';
 import './Header.css';
 
-const Header = (props) => {
+const Header = () => {
     return (
         <div className='header'>
             <img src={siteLogo} alt="website logo" />
